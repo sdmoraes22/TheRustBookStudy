@@ -1,10 +1,12 @@
 fn main() {
-    let user1 = User {
+    let mut user1 = User {
         active: true,
         username: String::from("someusername123"),
         email: String::from("someruseremail@example.com"),
         sign_in_count: 1,
     };
+
+    user1.email = String::from("anotheruseremail@example.com");
 }
 
 struct User {
