@@ -37,12 +37,12 @@ struct User {
     sign_in_count: u64,
 }
 
-struct User1 {
-    active: bool,
-    username: &str,
-    email: &str,
-    sign_in_count: u64,
-}
+// struct User1 {
+//     active: bool,
+//     username: &str,
+//     email: &str,
+//     sign_in_count: u64,
+// }
 
 fn build_user(email: String, username: String) -> User {
     User {
