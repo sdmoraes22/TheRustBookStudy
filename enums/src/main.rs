@@ -61,4 +61,14 @@ fn main() {
     let m = Message::Write(String::from("hello"));
 
     m.call();
+
+    let some_number = Some(5);
+    let some_char = Some("a");
+
+    let absent_number: Option<i32> = None;
+
+    // let x: i8 = 5;
+    // let y: Option<i8> = Some(5);
+    //
+    // let some = x + y;
 }
